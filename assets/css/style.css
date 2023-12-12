@@ -228,7 +228,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/iot.jpg") top center;
+  background: url("../img/cloud-computing.jpg") top center;
   background-size: cover;
 }
 
@@ -296,6 +296,8 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .section-bg {
@@ -311,6 +313,13 @@ section {
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title h4 {
+  font-size: 26px;
+  font-weight: bold;
   position: relative;
   color: #173b6c;
 }
